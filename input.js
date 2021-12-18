@@ -7,3 +7,4 @@ for(var i = 0 ; i <= n ; ++i){
 
 console.log("hllo tat ca moi nguoi")
 console.log(sum);
+console.log("hello phong")

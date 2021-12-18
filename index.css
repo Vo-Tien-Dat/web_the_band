@@ -6,14 +6,303 @@
 
 
 h1{
-    font-family: 'Lato';
-    font-size: 50px;
-    color: red;
-    border: 1px solid red;
-    background-color: black;
+    font-family: "Segoe UI",Arial,sans-serif; 
+    font-weight: 100;
+}
+
+h2{
+    font-family: "Segoe UI",Arial,sans-serif; 
+    font-weight: 100;
+}
+
+h3{
+    font-family: "Segoe UI",Arial,sans-serif; 
+    font-weight: 100;
 }
 
 input{
     width: px;
     height: 50px;
+}
+
+.HOME{
+    background-image: url(https://www.w3schools.com/w3images/ny.jpg);
+    background-size: cover;
+}
+
+
+
+.BANNEL{
+   padding-left:50px;
+    height:auto;
+    background-color: black;
+    color: white;
+    font-family: "Lato", sans-serif;
+    position: fixed;
+    display: block;
+    top: 0;
+    right:0;
+    left:0;
+}
+
+.BUTTON_BANNEL{
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    height:40px;
+    width:100px;
+    font-size:15px;
+}
+
+.BUTTON_BANNEL:hover{
+    background-color: white;
+    color: black;
+}
+
+.HOME{
+    background-position: center;
+    height: 100vh;
+}
+
+.BAND{
+    font-family: "Lato", sans-serif;
+    background-color: white;
+    text-align: justify!important;
+}
+
+
+.PROCEDURE_BAND{
+    margin-left: 100px;
+}
+
+
+.CONTENT_BAND_SMALL{
+    margin-top: 100px;
+    margin-left: 500px;
+}
+
+.CONTENT_BAND_BIG{
+    display: block;
+    
+    margin-top: 40px;
+    margin-left:500px;
+    font-size:20px;
+    font-weight:50;
+}
+
+.CONTENT_BAND{
+    margin-top: 30px;
+    margin-left:200px;
+    width: 700px;
+    height: auto;
+    font-size:15px;
+}
+
+.MEMBER .MEMBERPERSON{
+    float:white;
+    display: inline-block;
+    background-color: white;
+    margin-left:50px;
+}
+
+.MEMBER{
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+
+.NAMEPERSON{
+    font-size: 20px;
+    margin-left:50px;
+    margin-bottom:20px;
+}
+
+.PICTUREPERSON{
+    height: 150px;
+}
+
+
+
+
+
+.TOUR{
+    background-color: black;
+    height: auto;
+    font-family: "Lato", sans-serif;
+    font-weight:100px;
+}
+
+.TOUR .CONTENT_TOUR .CONTENT_TOUR_BIG{
+    font-weight: 100;
+    
+    color: white;
+    padding-top:100px;
+    margin-left:550px;
+    font-weight:50;
+}
+
+.CONTENT_TOUR_SMALL{
+    font-weight: 100;
+    color: white;
+    margin-top:10px;
+    display: block;
+    margin-left:520px;
+}
+
+.TOUR_SELECT_COUNTRY{
+    height:700px;
+    margin-top: 50px;
+    margin-left:210px;
+}
+
+.TOUR_SELECT_COUNTRY_MEMBER{
+    margin-left: 20px;
+    height: auto;
+    width: 250px;
+    background-color: white;
+    display: inline-block;
+}
+
+.TOUR_PICTURE{
+    height: 188px;
+}
+
+.CONTENT_TOUR_PICTURE{
+    height:150px;
+}
+
+.COUNTRY{
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.TOUR_COUNTRY_DATE{
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.TOUR_COUNTRY_MAIN{
+    margin-left: 10px;
+    margin-right:px;
+    font-size: 15px;
+}
+
+.BUTTON_COUNTRY{
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-top:20px;
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 100px;
+    font-weight:200;
+    font-size:15px;
+}
+
+.LOCATION{
+    background-color: red;
+}
+
+.INFORLOCATION{
+    width:300px;
+    height:auto;
+    border: 1px solid red;
+    background-color: white;
+    float: left;
+    margin-left:10px;
+}
+
+
+.picture{
+    height: 200px;
+}
+
+
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
+.CONTACT{
+    background-color: white;
+    height:auto;
+    font-family: "Lato", sans-serif;
+}
+
+.CONTACT .CONTENT_CONTACT{
+    height: auto;
+    margin-left:550px;
+}
+
+.CONTENT_CONTACT_BIG{
+    padding-top: 50px;
+}
+
+.CONTENT_CONTACT_SMALL{
+    margin-top: 20px;
+    display: block;
+    opacity: 0.5;
+}
+
+.INFORCONTACT{
+    margin-top:50px;
+}
+
+.INPUT_CONTACT{
+    margin-right: 50px;
+    float:right;
+    width: 500px;
+}
+
+.INPUT_CONTACT_SIZE{
+    margin-top: 10px;
+    margin-left:10px;
+    height:35px;
+    font-size:15px;
+    padding-left:5px;
+}
+
+.NAME{
+    width:150px;
+}
+
+
+
+.MESSAGE{
+    width: 315px;
+}
+.INFOR_CONTACT{
+    margin-left:350px;
+    display: inline-block;
+    font-size:10px;
+    font-weight:200;
+    margin-bottom: 20px;
+}
+
+.BUTTON_SEND{
+    margin-right: 220px;
+    float:right;
+    background-color: black;
+    color: white;
+    height:40px;
+    width: 80px;
+    border: 1px solid black;
+    
+}
+
+.BUTTON_SEND:hover{
+    background-color: rgb(238, 223, 91);
+    border:1px solid rgb(238, 223, 91);
+}
+
+.PICTURE_CONTACT{
+    margin-top:100px;
+    background-position: center;
+    height:108vh;
 }

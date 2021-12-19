@@ -4,22 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Document</title> 
     <link rel="stylesheet" href="index.css">
     
 </head>
 <body>
     
-    <div class="BANNEL">
-        <button class = "BUTTON_BANNEL" id = "home">HOME</button>
-        <button class = "BUTTON_BANNEL" id = "band">BAND</button>
-        <button class = "BUTTON_BANNEL" id = "tour">TOUR</button>
-        <button class = "BUTTON_BANNEL" id = "contact">CONTACT</button>
+    <div class="BANNEL" id = "navDemo">
+        <a href = "#" onclick = "myFunction()" class = "BUTTON_BANNEL">HOME</a>
+        <a href="#BAND" onclick = "myFunction()" class = "BUTTON_BANNEL">BAND</a>
+        <a href="#TOUR" onclick = "myFunction()" class = "BUTTON_BANNEL">TOUR</a>
+        <a href="#CONTACT" onclick = "myFunction()" class = "BUTTON_BANNEL">CONTACT</a>
     </div>
     <div class="HOME">
         <img src = "https://www.w3schools.com/w3images/ny.jpg"></img>
     </div>
-    <div class="BAND">
+    <div class="BAND" id = "BAND">
        <div class="PROCEDURE_BAND">
             <h1 class= "CONTENT_BAND_SMALL"> THE BAND</h1>
             <i class = "CONTENT_BAND_BIG"> We love music</i>
@@ -50,7 +50,7 @@
     <div class="clearfix">  </div>
 
     <div class="TOUR">
-        <div class="CONTENT_TOUR">
+        <div class="CONTENT_TOUR" id = "TOUR">
             <h1 class = "CONTENT_TOUR_BIG">TOUR DATE</h1>
             <i class = "CONTENT_TOUR_SMALL">Remember to book your tickets!</i>
         </div>
@@ -90,7 +90,7 @@
 
 
 
-    <div class="CONTACT">
+    <div class="CONTACT" id = "CONTACT">
         <div class="CONTENT_CONTACT">
             <h1 class = "CONTENT_CONTACT_BIG">CONTACT</h1>
             <I class = "CONTENT_CONTACT_SMALL">Fan ? Drop a note</I>

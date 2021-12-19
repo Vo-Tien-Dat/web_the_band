@@ -1,10 +1,15 @@
-var n = 100;
+document.getElementById("home").onclick = function() {
+    alert("Bạn đã click vào một phần tử trong HTML DOM");
+    };
 
-var sum = 0;
-for(var i = 0 ; i <= n ; ++i){
-    sum += i;
-}
+    document.getElementById("band").onclick = function() {
+    alert("Bạn đã click vào một phần tử trong HTML DOM");
+    };
 
-console.log("hllo tat ca moi nguoi")
-console.log(sum);
-console.log("hello phong")
+    document.getElementById("contact").onclick = function() {
+    alert("Bạn đã click vào một phần tử trong contact");
+    };
+
+    document.getElementById("tour").onclick = function() {
+        document.write(document.getElementById("tour"))
+        };
